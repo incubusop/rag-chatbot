@@ -3,7 +3,6 @@
 import os
 from flask import Flask, request, render_template
 
-
 from src.preprocess import load_messages
 from src.segmentation import segment_messages
 from src.summarizer import summarize
