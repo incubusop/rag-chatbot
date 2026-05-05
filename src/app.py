@@ -3,13 +3,12 @@
 import os
 from flask import Flask, request, render_template
 
-from preprocess import load_messages
-from segmentation import segment_messages
-from summarizer import summarize
-from retrieval import Retriever
-from persona import extract_persona
 
-
+from src.preprocess import load_messages
+from src.segmentation import segment_messages
+from src.summarizer import summarize
+from src.retrieval import Retriever
+from src.persona import extract_persona
 # =========================
 # PATH SETUP
 # =========================
