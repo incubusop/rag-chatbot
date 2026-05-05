@@ -1,1 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+}
 
+/* CENTER LAYOUT */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* CARD */
+.card {
+    width: 70%;
+    max-width: 900px;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(15px);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.5);
+}
+
+/* TITLE */
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* SUBTITLE */
+.subtitle {
+    text-align: center;
+    font-size: 14px;
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+/* INPUT */
+.chat-box {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #00c6ff;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #00a2d6;
+}
+
+/* RESPONSE */
+.chat-response {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.bot-label {
+    font-size: 13px;
+    color: #aaa;
+    margin-bottom: 5px;
+}
+
+.response-content {
+    background: rgba(0,0,0,0.4);
+    padding: 15px;
+    border-radius: 10px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background: #1b2a38;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #444;
+    text-align: center;
+}
+
+th {
+    background: #22384a;
+    color: #fff;
+}
+
+tr:hover {
+    background: rgba(255,255,255,0.08);
+}
+
+/* FOOTER */
+.footer {
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: #bbb;
+    opacity: 0.7;
+}
